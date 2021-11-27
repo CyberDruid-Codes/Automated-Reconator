@@ -1,0 +1,39 @@
+{
+  "intents": [
+    {
+      "tag": "cpegeneral",
+      "patterns": [ "cpe:", "cpe", "Cpe", "CPE", "CPE:", "cpe:/h", "cpe:/o", "cpe:/a", "cpe:/h:axis", "cpe':" ],
+      "responses": [ "A general CPE has been found, check the details below" ]
+    },
+    {
+      "tag": "cpelinux",
+      "patterns": [ "cpe:/o:linux:linux_kernel:3.1", "cpe:/o:linux:linux_kernel:3.2", "cpe:/o:linux:linux_kernel:5", "cpe:/o:linux:linux_kernel:2.6.17", "cpe:/o:linux:linux_kernel", "cpe:/o:linux", "ubuntu", "Linux" ],
+      "responses": [ "This environment runs on Linux, here are the cpe's found:" ]
+    },
+    {
+      "tag": "cpengix",
+      "patterns": [ "cpe:/a:igor_sysoev:nginx", "igor_sysoev:nginx", "cpe:/a:igor_sysoev", "cpe:/a:igor_sysoev:nginx:1.14.2", "nginx", "igor_sysoev", "nginx/1.14.2" ],
+      "responses": [ "Nginx has been found! Here are the cpe's found:" ]
+    },
+    {
+      "tag": "cpeapache",
+      "patterns": [ "cpe:/a:apache:http_server:2.4.18", "cpe:/a:apache", "cpe:/a:apache:http_server", "apache", "Apache/2.4.41", "cpe:/a:apache:http_server:2.4.29" ],
+      "responses": [ "A version of apache has been detected! Here are the cpe's found:" ]
+    },
+    {
+      "tag": "cpeoraclevm",
+      "patterns": [ "cpe:/o:oracle:vm_server:3.4.2", "cpe:/o:oracle", "cpe:/o:oracle:vm_server", "vm_server", "oracle", "oracle vm", "cpe:/a:oracle:vm_virtualbox", "cpe:/a:oracle:vm" ],
+      "responses": [ "An oracle product has been found. Check the Product and version below" ]
+    },
+    {
+      "tag": "cpeftp",
+      "patterns": [ "cpe:/a:proftpd:proftpd:1.3.5:a", "ftp", "Microsoft ftpd", "cpe:2.3:a:microsoft:internet_information", "ftpd" ],
+      "responses": [ "An FTP product has been discovered. Check below for more details"]
+    },
+    {
+      "tag": "cpemicrosoftwindows",
+      "patterns": [ "cpe:/o:microsoft:windows_7", "cpe:/o:microsoft:windows_server_2012", "cpe:/o:microsoft:windows_xp::sp3", "Microsoft", "Windows", "cpe:/o:microsoft", "cpe:/o:microsoft:windows", "cpe:/o:microsoft:windows_server", "cpe:/o:windows:", "cpe:/o:win" ],
+      "responses": [ "A Microsoft based product has been found, most probably a Windows Operating System. Check below for more details" ]
+    }
+  ]
+}
