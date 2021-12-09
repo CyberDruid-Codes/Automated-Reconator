@@ -41,6 +41,7 @@ def nmapScan(ipentry,vulners_enabled):
     vuln_results = " "
     products_found = False
     cveres = ""
+    vuln_found = ""
     for port in openports:
         #Scans each port for detailed information ( Name, product, state(open/closed) )
        products =  nm[ipentry][prot][port]['product']
