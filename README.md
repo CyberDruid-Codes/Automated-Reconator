@@ -78,4 +78,4 @@ Note - Make sure the script has the permission to run on your machine and that t
 #### ----Demo---- ####
 You can watch my youtube video to see the script in action!        
 Link:          
-https://www.youtube.com/watch?v=GYNTDR-vtng&t=5s&ab_channel=CyberDruid
+https://www.youtube.com/watch?v=GYNTDR-vtng&ab_channel=CyberDruid
