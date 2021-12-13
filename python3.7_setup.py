@@ -8,13 +8,13 @@ numpy_package = "numpy"
 tensorflow_package = "tensorflow"
 
 
-# vulners install 
+# nltk install 
 subprocess.check_call([sys.executable, "-m", "pip", "install", nltk_package])
 
-# nmap install 
+# numpy install 
 subprocess.check_call([sys.executable, "-m", "pip", "install", numpy_package])
 
-# mitre install 
+# tensorflow install 
 subprocess.check_call([sys.executable, "-m", "pip", "install", tensorflow_package])
 
 print("------Done------")
