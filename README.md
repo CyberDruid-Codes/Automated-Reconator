@@ -35,10 +35,10 @@ For the script to run fully, Python 3.7 needs to be installed too. This is for t
 The optional vulnerability check module requires an api key added on line 11 of the "vulnclass.py" file. 
 The API key can be requested from here, for free! -> https://vulners.com/ (General API Key) 
     
-To get the required python modules, run the following: 
-python3.8 python3.8_setup.py
-python3.7 python3.7_setup.py 
-
+To get the required python modules, run the following:           
+- python3.8 python3.8_setup.py              
+- python3.7 python3.7_setup.py            
+              
 (2 scripts for the 2 different python modules. Pip needs to be installed on python before running the script!) 
 
 #### ----Prerequisites / Extra Setup ---- ####
