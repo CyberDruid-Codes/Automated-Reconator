@@ -35,23 +35,11 @@ For the script to run fully, Python 3.7 needs to be installed too. This is for t
 The optional vulnerability check module requires an api key added on line 11 of the "vulnclass.py" file. 
 The API key can be requested from here, for free! -> https://vulners.com/ (General API Key) 
     
-The following python modules need to be installed:     
-    
--For Python 3.8:     
-https://pypi.org/project/vulners/    
-https://pypi.org/project/python-nmap/    
-https://pypi.org/project/pyattck/    
-https://pypi.org/project/reportlab/3.5.59/    
-https://pypi.org/project/networkx/2.5/    
-https://pypi.org/project/matplotlib/    
-     
--For Python 3.7:    
-https://pypi.org/project/nltk/    
-https://pypi.org/project/numpy/    
-https://pypi.org/project/tensorflow/    
+To get the required python modules, run the following: 
+python3.8 python3.8_setup.py
+python3.7 python3.7_setup.py 
 
-To install them on different versions, you can do: python3.x -m pip install <package name> 
-(Note: some of these modules might be on python by default. It will notify you if the module is already installed) 
+(2 scripts for the 2 different python modules. Pip needs to be installed on python before running the script!) 
 
 #### ----Prerequisites / Extra Setup ---- ####
 The following modules need to be edited: cyberbotcall.py and vulncls.py. 
